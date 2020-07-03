@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JEB J-15 Travel Agent</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <div class="container col">
+        <div class="header-left">
+          <img class="logo" src="img/logo.png" alt="" />
+        </div>
+        <div class="header-right">
+          <ul class="col">
+            <li>
+              <a href="#articles"><i class="fa fa-map"></i> Kota Wisata</a>
+            </li>
+            <li>
+              <a href="#regist"
+                ><i class="fa fa-address-card-o"></i> Register</a
+              >
+            </li>
+            <li>
+              <a href="#"><i class="fa fa-user-o"></i> Login</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+      <div class="articles" id="articles">
+        <div class="article col">
+          <div class="article-img">
+            <img
+              src="https://cdns.klimg.com/merdeka.com/i/w/news/2019/10/08/1115986/540x270/4-museum-terbaik-untuk-jelajah-sejarah-di-kota-bandung.jpg"
+            />
+          </div>
+          <div class="article-txt">
+            <h2>Bandung</h2>
+            <p>
+              Bandung termasuk kota wisata yang banyak digemari untuk berkunjung
+              kesana, terutama dari warga ibu kota. Udara nya yang dingin dan
+              sejuk dan ditumbuhi pepohonan yang rindang dapat membuat nyaman
+              semua orang. Kota Bandung juga dijuluki kota Bunga karena disana
+              banyak tumbuh tanaman cantik. Di kota itu juga banyak tempat
+              wisata2 yang indah dan asik dan maka dari itu Bandung cocok
+              sebagai kota yang patut dikunjungi diwaktu liburan.
+            </p>
+          </div>
+        </div>
+        <div class="article col article-right">
+          <div class="article-img">
+            <img
+              src="https://znews.id/wp-content/uploads/2020/06/20200608_152116.jpg"
+            />
+          </div>
+          <div class="article-txt">
+            <h2>Garut</h2>
+            <p>
+              Kabupaten Garut adalah destinasi alam yang menawarkan berbagai
+              keindahan. Namun saat ini keberadaan wisata alam masih kurang
+              diketahui oleh masyarakat luas. Sehingga untuk menjangkau minat
+              para wisatawan, Pemerintah Kabupaten Garut (Pemkab) berencana akan
+              mengembangkan potensi wisata di kawasan Situ Cihideung, Kecamatan
+              Cihurip, Kabupaten Garut. Kabupaten Garut selain memiliki potensi
+              wisata bahari yang sangat indah, Garut pun mempunyai wisata air
+              yang tak kalah indah dari kabupaten lainnya.
+            </p>
+          </div>
+        </div>
+        <div class="article col">
+          <div class="article-img">
+            <img
+              src="https://www.wjtoday.com/uploads/post/wajah-baru-alun-alun-sumedang-rancangan-ridwan-kamil-20335631.jpg"
+            />
+          </div>
+          <div class="article-txt">
+            <h2>Sumedang</h2>
+            <p>
+              Kabupaten Sumedang tercatat memiliki 5 jenis daya tarik wisata
+              yaitudaya tarik wisata budaya, wisata buatan, wisata alam, wisata
+              minat khusus. Pengaruh aspek sosial bagi masyarakat adalah adanya
+              pertukaran budaya masyarakat setempat dengan wisatawan yang
+              datang.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="regist-form" id="regist">
+        <h2>Form Regist</h2>
+
+        <form action="">
+          <div class="form-input col">
+            <div class="form-left">
+              <label>
+                Nama <input type="text" name"nama">
+              </label>
+              <label>
+                Email <input type="email" name"email">
+              </label>
+              <label>
+                Phone Number <input type="text" name"phone_number">
+              </label>
+            </div>
+
+            <div class="form-right">
+              <label>
+                Paket Liburan
+                <select name="paket_liburan">
+                  <option value="">Pilih Wisata</option>
+                  <option value="ke_bandung">Wisata Bandung</option>
+                  <option value="ke_garut">Wisata Garut</option>
+                  <option value="ke_sumedang">Wisata Sumedang</option>
+                </select>
+              </label>
+              <label>
+                Tanggal Berangkat <input type="date" name"tanggal_berangkat">
+              </label>
+            </div>
+          </div>
+
+          <div class="form-btn col">
+            <button class="btn-reset" type="reset">Reset</button>
+            <button class="btn-send" type="submit">Kirim</button>
+          </div>
+        </form>
+      </div>
+    </div>
+
+    <footer>
+      <div class="footer-top"><h1>Developed By CEBJ-15</h1></div>
+      <div class="footer-bottom">
+        <h3>Atha | Farid | Idham | Lukman | Richad</h3>
+      </div>
+    </footer>
+  </body>
+</html>
