@@ -37,6 +37,10 @@ header .container {
   margin-top: 15px;
 }
 
+.header-right ul {
+  display: none;
+}
+
 .header-right li {
   list-style: none;
   transition: all 0.5s;
@@ -54,6 +58,14 @@ header .container {
 .header-right a:hover,
 .header-right a:active {
   background-color: rgb(93, 222, 251);
+}
+
+.burger-bar {
+  height: 75px;
+  padding: 0 15px;
+  line-height: 75px;
+  color: #062041;
+  /* border: 1px solid black; */
 }
 
 /* MAIN 1 */
@@ -185,6 +197,14 @@ footer {
   .logo {
     width: 135px;
     margin: 20px 0 0 20px;
+  }
+
+  .header-right ul {
+    display: flex;
+  }
+
+  .burger-bar {
+    display: none;
   }
 
   .header-right a {
